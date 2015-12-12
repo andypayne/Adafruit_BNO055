@@ -27,7 +27,7 @@ GCheckbox printSerialCheckbox;
 
 void setup()
 {
-  size(640, 480, OPENGL);
+  size(640, 480, P3D);
   frameRate(30);
   model = new OBJModel(this);
   model.load("bunny.obj");
